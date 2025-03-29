@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  background-color:rgb(39, 162, 178);
+  border: 2px solid white;
+}
+
+span {
+  padding: 5px 10px;
+}
+
+
+.spline-ui {
+  display: none !important;
+  visibility: hidden !important;
+}
